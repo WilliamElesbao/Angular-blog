@@ -2,7 +2,7 @@
 
   <div class="big-card__photo">
     <img
-      src="https://hips.hearstapps.com/hmg-prod/images/index-28-1660243826.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+      src="{{ photoCover }}"
       alt=""
       height="200px"
 
@@ -11,14 +11,13 @@
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Woow!!! Angular is amazing!
-        É incrivel como podemos utilizar o framework Angular para componentizar os elementos da nossa pagina para facilitar o desenvolvimento e manutancao.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
