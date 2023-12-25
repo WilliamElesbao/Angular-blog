@@ -1,0 +1,9 @@
+@media (width <= 1166px){
+  .container__articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

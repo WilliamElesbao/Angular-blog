@@ -8,11 +8,5 @@
   justify-content: center;
 }
 
-header {
-  /* border: 1px solid red; */
-  margin-top: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 
